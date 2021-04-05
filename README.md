@@ -1,10 +1,10 @@
-# python-api-challenge
+# WeatherPy Part 1 - Python-API-Challenge
 Data Science & Visualization Bootcamp - Homework 6 Python APIs
 
 
 This repository contains the Jupyter Notebook scripts WeatherPy.ipynb and VacationPy.ipynb. 
 
-WeatherPy uses the library cityp and the OpenWeatherMap API to analyze the weather of more than 500 cities globally at varying latitudes from the equator; and, to create a representative model of world cities' weather. It creates a series of scatter plots to explore the following relationships:
+WeatherPy uses the citypy Python library and the OpenWeatherMap API to analyze the weather of more than 500 cities globally at varying latitudes from the equator; and, to create a representative model of world cities' weather. It creates a series of scatter plots to explore the following relationships:
 
 Temperature (*C) vs. Latitude
 Humidity (%) vs. Latitude
