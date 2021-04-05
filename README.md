@@ -1,12 +1,9 @@
 # WeatherPy Part 1 - Python-API-Challenge
-Data Science & Visualization Bootcamp - Homework 6 Python APIs
-
-
-This repository contains the Jupyter Notebook scripts WeatherPy.ipynb and VacationPy.ipynb. 
+NOTE: This is Part 1 of WeatherPy, a global weather analysis and visualization project. Part 2 can be found in my "Web-Design-Challenge" GitHub repository. This repository contains the Jupyter Notebook scripts WeatherPy.ipynb and VacationPy.ipynb.
 
 WeatherPy uses the citypy Python library and the OpenWeatherMap API to analyze the weather of more than 500 cities globally at varying latitudes from the equator; and, to create a representative model of world cities' weather. It creates a series of scatter plots to explore the following relationships:
 
-Temperature (*C) vs. Latitude
+Temperature (*C) vs. Latitude <br>
 Humidity (%) vs. Latitude <br>
 Cloudiness (%) vs. Latitude <br>
 Wind Speed (m/sec) vs. Latitude
@@ -42,3 +39,5 @@ Using jupyter-gmaps and the Google Places API, VacationPy creates a heat map tha
 
 
 VacationPy uses the Google Places API to find the first hotel located within 5000 meters of each of your city's coordinates. It then plots these hotels onto the humidity heatmap, with each pin containing the Hotel Name, City, and Country information.
+
+2020-21 Data Science & Visualization Bootcamp - Rawaf Homework 6 Python APIs
