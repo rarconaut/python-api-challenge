@@ -6,7 +6,7 @@ This repository contains the Jupyter Notebook scripts WeatherPy.ipynb and Vacati
 
 WeatherPy uses the citypy Python library and the OpenWeatherMap API to analyze the weather of more than 500 cities globally at varying latitudes from the equator; and, to create a representative model of world cities' weather. It creates a series of scatter plots to explore the following relationships:
 
-Temperature (*C) vs. Latitude <br>
+Temperature (*C) vs. Latitude
 Humidity (%) vs. Latitude <br>
 Cloudiness (%) vs. Latitude <br>
 Wind Speed (m/sec) vs. Latitude
@@ -25,7 +25,7 @@ Southern Hemisphere - Wind Speed (m/sec) vs. Latitude
 
 Some unique attributes of the WeatherPy notebook are:
 
-- It randomly select at least 500 cities based on latitude and longitude.
+- It randomly selects at least 500 cities based on latitude and longitude.
 - It performs successive API calls to check the day's weather for each of the cities.
 - It includes a print log of each city as it's being processed with the city number and city name.
 - And, it saves a CSV of all retrieved data and a PNG image for each scatter plot.
