@@ -9,8 +9,8 @@ It creates a series of scatter plots to explore the following relationships:
 <ul><li>Temperature (*C) vs. Latitude </li>
 <li>Humidity (%) vs. Latitude </li>
 <li>Cloudiness (%) vs. Latitude </li>
-<li>Wind Speed (m/sec) vs. Latitude </li>
-<br>
+<li>Wind Speed (m/sec) vs. Latitude </li><br>
+  
 ![image](https://user-images.githubusercontent.com/68246130/114631618-caa54b80-9c71-11eb-8cea-251ac0996fe6.png)
 
 
@@ -22,8 +22,8 @@ The WeathePy script then runs a linear regression on each of these relationships
 <li>Northern Hemisphere - Cloudiness (%) vs. Latitude </li>
 <li>Southern Hemisphere - Cloudiness (%) vs. Latitude </li>
 <li>Northern Hemisphere - Wind Speed (m/sec) vs. Latitude </li>
-<li>Southern Hemisphere - Wind Speed (m/sec) vs. Latitude </li></ul>
-<br>
+<li>Southern Hemisphere - Wind Speed (m/sec) vs. Latitude </li></ul><br>
+
 ![image](https://user-images.githubusercontent.com/68246130/114631861-43a4a300-9c72-11eb-8531-988b8b60109a.png)
 
 Some unique attributes of the WeatherPy notebook are:
