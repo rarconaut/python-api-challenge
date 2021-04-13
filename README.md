@@ -1,15 +1,20 @@
 # WeatherPy Part 1 - Python-API-Challenge
 NOTE: This is Part 1 of WeatherPy, a global weather analysis and visualization project. Part 2 can be found in my "Web-Design-Challenge" GitHub repository. This repository contains the Jupyter Notebook scripts WeatherPy.ipynb and VacationPy.ipynb.
 
-WeatherPy uses the citypy Python library and the OpenWeatherMap API to analyze the weather of more than 500 cities globally at varying latitudes from the equator; and, to create a representative model of world cities' weather. It creates a series of scatter plots to explore the following relationships:
+WeatherPy uses the citypy Python library and the OpenWeatherMap API to analyze the weather of more than 500 cities globally at varying latitudes from the equator; and, to create a representative model of world cities' weather. 
 
+![image](https://user-images.githubusercontent.com/68246130/114631472-7ac68480-9c71-11eb-9e4e-00a2dc93539f.png)
+
+It creates a series of scatter plots to explore the following relationships:
 Temperature (*C) vs. Latitude <br>
 Humidity (%) vs. Latitude <br>
 Cloudiness (%) vs. Latitude <br>
 Wind Speed (m/sec) vs. Latitude
 
-The WeathePy script then runs a linear regression on each of these relationships, separated into Northern Hemisphere (latitude >= 0 degrees ) and Southern Hemisphere (latitude < 0 degrees):
+![image](https://user-images.githubusercontent.com/68246130/114631618-caa54b80-9c71-11eb-8cea-251ac0996fe6.png)
 
+
+The WeathePy script then runs a linear regression on each of these relationships, separated into Northern Hemisphere (latitude >= 0 degrees ) and Southern Hemisphere (latitude < 0 degrees):
 Northern Hemisphere - Temperature (*C) vs. Latitude
 Southern Hemisphere - Temperature (*C) vs. Latitude
 Northern Hemisphere - Humidity (%) vs. Latitude
@@ -19,6 +24,7 @@ Southern Hemisphere - Cloudiness (%) vs. Latitude
 Northern Hemisphere - Wind Speed (m/sec) vs. Latitude
 Southern Hemisphere - Wind Speed (m/sec) vs. Latitude
 
+![image](https://user-images.githubusercontent.com/68246130/114631861-43a4a300-9c72-11eb-8531-988b8b60109a.png)
 
 Some unique attributes of the WeatherPy notebook are:
 
