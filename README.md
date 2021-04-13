@@ -30,13 +30,12 @@ Some unique attributes of the WeatherPy notebook are:
 ---------------------------------------------------------------------
 
 VacationPy works with the weather data from WeatherPy to plan future vacations. 
+![image](https://user-images.githubusercontent.com/68246130/114631243-1277a300-9c71-11eb-8949-5f4685dd27d3.png)
 
 Using jupyter-gmaps and the Google Places API, VacationPy creates a heat map that displays the humidity for every city from WeatherPy, and narrows down the DataFrame to find only those cities with your ideal weather condition. In this example:
-
--A maximum temperature lower than 30 degrees Celsius but higher than 20.
--A wind speed of less than 10 meters per second.
--And, 0% cloudiness.
-
+<ul><li>A maximum temperature lower than 30 degrees Celsius but higher than 20.</li>
+  <li>A wind speed of less than 10 meters per second.</li>
+  <li>And, 0% cloudiness.</li></ul>
 
 VacationPy uses the Google Places API to find the first hotel located within 5000 meters of each of your city's coordinates. It then plots these hotels onto the humidity heatmap, with each pin containing the Hotel Name, City, and Country information.
 
