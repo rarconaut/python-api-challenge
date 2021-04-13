@@ -6,23 +6,23 @@ WeatherPy uses the citypy Python library and the OpenWeatherMap API to analyze t
 ![image](https://user-images.githubusercontent.com/68246130/114631472-7ac68480-9c71-11eb-9e4e-00a2dc93539f.png)
 
 It creates a series of scatter plots to explore the following relationships:
-Temperature (*C) vs. Latitude <br>
-Humidity (%) vs. Latitude <br>
-Cloudiness (%) vs. Latitude <br>
-Wind Speed (m/sec) vs. Latitude
+<br>Temperature (*C) vs. Latitude
+<br>Humidity (%) vs. Latitude
+<br>Cloudiness (%) vs. Latitude 
+<br>Wind Speed (m/sec) vs. Latitude
 
 ![image](https://user-images.githubusercontent.com/68246130/114631618-caa54b80-9c71-11eb-8cea-251ac0996fe6.png)
 
 
 The WeathePy script then runs a linear regression on each of these relationships, separated into Northern Hemisphere (latitude >= 0 degrees ) and Southern Hemisphere (latitude < 0 degrees):
-Northern Hemisphere - Temperature (*C) vs. Latitude
-Southern Hemisphere - Temperature (*C) vs. Latitude
-Northern Hemisphere - Humidity (%) vs. Latitude
-Southern Hemisphere - Humidity (%) vs. Latitude
-Northern Hemisphere - Cloudiness (%) vs. Latitude
-Southern Hemisphere - Cloudiness (%) vs. Latitude
-Northern Hemisphere - Wind Speed (m/sec) vs. Latitude
-Southern Hemisphere - Wind Speed (m/sec) vs. Latitude
+<br>Northern Hemisphere - Temperature (*C) vs. Latitude
+<br>Southern Hemisphere - Temperature (*C) vs. Latitude
+<br>Northern Hemisphere - Humidity (%) vs. Latitude
+<br>Southern Hemisphere - Humidity (%) vs. Latitude
+<br>Northern Hemisphere - Cloudiness (%) vs. Latitude
+<br>Southern Hemisphere - Cloudiness (%) vs. Latitude
+<br>Northern Hemisphere - Wind Speed (m/sec) vs. Latitude
+<br>Southern Hemisphere - Wind Speed (m/sec) vs. Latitude
 
 ![image](https://user-images.githubusercontent.com/68246130/114631861-43a4a300-9c72-11eb-8531-988b8b60109a.png)
 
